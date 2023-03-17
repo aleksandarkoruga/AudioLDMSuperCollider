@@ -1,4 +1,4 @@
-# AudioLDMSupercollider
+# AudioLDMSuperCollider
  A SuperCollider class which calls the AudioLDM command line tool for generating text-to-audio
 
 # Requirements 
