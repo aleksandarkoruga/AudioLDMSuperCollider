@@ -20,4 +20,4 @@ s.boot;
 ```
 # AudioLDM.generateFromText
  - Arguments are: server, output path (can be a non-existing folder, will be created upon call if permissions allow it), description, seed, duration (x2.5 internally, so 1 = 2.5, 2 = 5.0 etc)
- - Returns an array of buffers. The array will contain all the samples found in the specified output folder which contain the description provided. So in case of multiple runs with the same descritption all files are loaded. 
+ - Returns an array of buffers. The array will contain all the samples found in the specified output folder which contain the description provided. So in case of multiple runs with the same/nested descritption all files are loaded. 
