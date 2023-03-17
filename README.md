@@ -21,3 +21,6 @@ s.boot;
 # AudioLDM.generateFromText
  - Arguments are: server, output path (can be a non-existing folder, will be created upon call if permissions allow it), description, seed, duration (x2.5 internally, so 1 = 2.5, 2 = 5.0 etc)
  - Returns an array of buffers. The array will contain all the samples found in the specified output folder which contain the description provided. So in case of multiple runs with the same/nested descritption all files are loaded. 
+
+# Notes
+ When you first run the command line tool it downloads the model of ~2Gb. So if you want to have a visual feedback on the progress please run the command line tool once manually. Otherwise leave the necessary time for the SuperCollider function to return (and grab a coffee :)  
